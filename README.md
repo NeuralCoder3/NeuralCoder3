@@ -9,6 +9,3 @@
 <!-- gh-pages start -->
 
 <!-- gh-pages end -->
-
-## Current Github-Pages Websites
-
