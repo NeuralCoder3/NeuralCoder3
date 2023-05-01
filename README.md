@@ -8,4 +8,15 @@
 
 <!-- gh-pages start -->
 
+## Current Github-Pages Websites
+
+- [AutomataEditor](https://github.com/NeuralCoder3/AutomataEditor)
+- [calendar](https://github.com/NeuralCoder3/calendar)
+- [coqdoc](https://github.com/NeuralCoder3/coqdoc)
+- [hex-puzzle](https://github.com/NeuralCoder3/hex-puzzle)
+- [hilbert-hotel](https://github.com/NeuralCoder3/hilbert-hotel)
+- [mars-mips](https://github.com/NeuralCoder3/mars-mips)
+- [metacoq](https://github.com/NeuralCoder3/metacoq)
+- [minesweeper](https://github.com/NeuralCoder3/minesweeper)
+- [mips-interpreter](https://github.com/NeuralCoder3/mips-interpreter)
 <!-- gh-pages end -->
