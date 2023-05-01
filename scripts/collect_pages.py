@@ -21,7 +21,11 @@ for repo in gh_pages_repos:
   url = f"https://{username}.github.io/{repo['name']}"
   if repo["homepage"] and len(repo["homepage"]) > 0:
     url = repo["homepage"]
-  links.append(f"- [{repo['name']}]({repo['html_url']})")
+  description = repo["description"]
+  link_text = f"- [{repo['name']}]({repo['html_url']})"
+  if description and len(description) > 0:
+    link_text += f": {description}"
+  links.append(link_text)
 
 # update the README.md
 start_marker = f"<!-- {marker} start -->"
