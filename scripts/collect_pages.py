@@ -24,6 +24,7 @@ for repo in gh_pages_repos:
   description = repo["description"]
   link_text = f"- [{repo['name']}]({repo['html_url']})"
   if description and len(description) > 0:
+    description = description.replace("\n", " ")
     link_text += f": {description}"
   links.append(link_text)
 
