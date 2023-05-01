@@ -6,8 +6,15 @@ marker = "gh-pages"
 title = "## Current Github-Pages Websites"
 readme_file = "../README.md"
 
-# retrieve all repos
-repos = requests.get(api_url).json()
+# retrieve all repos (iterate ?page=i until empty)
+repos = []
+page = 1
+while True:
+  response = requests.get(api_url + f"?page={page}").json()
+  if len(response) == 0:
+    break
+  repos += response
+  page += 1
 
 # filter out repos that have a gh-pages branch (has_pages = True)
 gh_pages_repos = [repo for repo in repos if repo["has_pages"]]
