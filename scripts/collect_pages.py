@@ -22,7 +22,7 @@ for repo in gh_pages_repos:
   if repo["homepage"] and len(repo["homepage"]) > 0:
     url = repo["homepage"]
   description = repo["description"]
-  link_text = f"- [{repo['name']}]({repo['html_url']})"
+  link_text = f"- [(Repo)]({repo['html_url']}) [{repo['name']}]({url})"
   if description and len(description) > 0:
     description = description.replace("\n", " ")
     link_text += f": {description}"
