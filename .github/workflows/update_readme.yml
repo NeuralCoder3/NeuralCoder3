@@ -16,16 +16,16 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 1
-      - name: 🐍 Set up Python 3.8
-        uses: actions/setup-python@v2
+      - name: 📦 Install Rust # package unicode  📦 
+        run: rustup toolchain install stable --profile minimal
+      - name: 🛠️ Compile Rust 
+        uses: Swatinem/rust-cache@v2
         with:
-          python-version: "3.8"
-      - name: 💿 Install dependencies
-        run: pip install requests
-      - name: 🍳 Update README
+          workspaces: "scripts/collect_pages"
+      - name: ⚡ Run Rust
         run: |
-          cd ${GITHUB_WORKSPACE}/scripts/
-          python collect_pages.py
+          cd ${GITHUB_WORKSPACE}/scripts/collect_pages
+          cargo run --release
       - name: 🚀 Deploy
         run: |
           git config user.name "${GITHUB_ACTOR}"
