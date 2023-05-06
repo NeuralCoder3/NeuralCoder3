@@ -48,10 +48,11 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 url = homepage.to_string();
             }
         }
-        let mut link_text = format!(
-            "- [(Repo)]({}) [{}]({})",
-            repo["html_url"], repo["name"], url
-        );
+        // remove surrounding quotes
+        let repo_url = repo["html_url"].as_str().unwrap_or("").to_string();
+        let repo_name = repo["name"].as_str().unwrap_or("").to_string();
+        let web_url = url.trim_matches('"').to_string();
+        let mut link_text = format!("- [(Repo)]({}) [{}]({})", repo_url, repo_name, web_url);
         if let Some(description) = repo["description"].as_str() {
             if !description.is_empty() {
                 let description = description.replace("\n", " ");
