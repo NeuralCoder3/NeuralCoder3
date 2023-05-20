@@ -12,6 +12,7 @@
 - [(Repo)](https://github.com/NeuralCoder3/AutomataEditor) [AutomataEditor](https://neuralcoder3.github.io/AutomataEditor/): an editor for automata using react-flow
 - [(Repo)](https://github.com/NeuralCoder3/calendar) [calendar](https://neuralcoder3.github.io/calendar/): A simple typescript vanitas calendar showing the progress of the year.
 - [(Repo)](https://github.com/NeuralCoder3/coqdoc) [coqdoc](https://neuralcoder3.github.io/coqdoc)
+- [(Repo)](https://github.com/NeuralCoder3/git_hash_chooser) [git_hash_chooser](https://neuralcoder3.github.io/git_hash_chooser/): Brute forces git hashes to choose your own prefix
 - [(Repo)](https://github.com/NeuralCoder3/hex-puzzle) [hex-puzzle](https://neuralcoder3.github.io/hex-puzzle)
 - [(Repo)](https://github.com/NeuralCoder3/hilbert-hotel) [hilbert-hotel](https://neuralcoder3.github.io/hilbert-hotel/): A minigame to interact with the hilbert hotel puzzle
 - [(Repo)](https://github.com/NeuralCoder3/mars-mips) [mars-mips](https://neuralcoder3.github.io/mars-mips/): A completely client-side web version of ther MARS MIPS interpreter using cheerpj
