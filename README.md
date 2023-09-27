@@ -24,7 +24,9 @@
 - [(Repo)](https://github.com/NeuralCoder3/password-check) [password-check](https://neuralcoder3.github.io/password-check): A simple react application to check passwords on the client side.
 - [(Repo)](https://github.com/NeuralCoder3/ppm-converter) [ppm-converter](https://neuralcoder3.github.io/ppm-converter/): A simple converter to ascii ppm images (no compression, no comments, ...) using wasm
 - [(Repo)](https://github.com/NeuralCoder3/prooftrees) [prooftrees](https://neuralcoder3.github.io/prooftrees/): Exploration of interactive inference rule application/proofs using a unification approach.
+- [(Repo)](https://github.com/NeuralCoder3/proof_tables) [proof_tables](https://neuralcoder3.github.io/proof_tables/): An interactive tool to play with proof tables as introduced in the mathematics prep course
 - [(Repo)](https://github.com/NeuralCoder3/quantum-wordle) [quantum-wordle](https://neuralcoder3.github.io/quantum-wordle): Quantum Wordle
+- [(Repo)](https://github.com/NeuralCoder3/script_proofs) [script_proofs](https://neuralcoder3.github.io/script_proofs/): a coq (and lean) variant of the calculus from the maths prep course 
 - [(Repo)](https://github.com/NeuralCoder3/SOOCaml-frontend) [SOOCaml-frontend](https://neuralcoder3.github.io/SOOCaml-frontend/): The User Interface for SOOCaml  (old https://sosml.org)
 - [(Repo)](https://github.com/NeuralCoder3/wiki-link) [wiki-link](https://neuralcoder3.github.io/wiki-link/): Processes and visualizes links between fandom.com wiki pages specifically the backrooms wiki
 <!-- gh-pages end -->
