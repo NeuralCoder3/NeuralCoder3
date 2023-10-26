@@ -23,6 +23,7 @@
 - [(Repo)](https://github.com/NeuralCoder3/obsidian-public-notes) [obsidian-public-notes](https://neuralcoder3.github.io/obsidian-public-notes)
 - [(Repo)](https://github.com/NeuralCoder3/password-check) [password-check](https://neuralcoder3.github.io/password-check): A simple react application to check passwords on the client side.
 - [(Repo)](https://github.com/NeuralCoder3/ppm-converter) [ppm-converter](https://neuralcoder3.github.io/ppm-converter/): A simple converter to ascii ppm images (no compression, no comments, ...) using wasm
+- [(Repo)](https://github.com/NeuralCoder3/prog1-book-proxy) [prog1-book-proxy](https://neuralcoder3.github.io/prog1-book-proxy/): A proxy repository to forward gh-pages publishing
 - [(Repo)](https://github.com/NeuralCoder3/prooftrees) [prooftrees](https://neuralcoder3.github.io/prooftrees/): Exploration of interactive inference rule application/proofs using a unification approach.
 - [(Repo)](https://github.com/NeuralCoder3/proof_tables) [proof_tables](https://neuralcoder3.github.io/proof_tables/): An interactive tool to play with proof tables as introduced in the mathematics prep course
 - [(Repo)](https://github.com/NeuralCoder3/quantum-wordle) [quantum-wordle](https://neuralcoder3.github.io/quantum-wordle): Quantum Wordle
