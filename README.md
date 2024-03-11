@@ -28,6 +28,7 @@
 - [(Repo)](https://github.com/NeuralCoder3/proof_tables) [proof_tables](https://neuralcoder3.github.io/proof_tables/): An interactive tool to play with proof tables as introduced in the mathematics prep course
 - [(Repo)](https://github.com/NeuralCoder3/quantum-wordle) [quantum-wordle](https://neuralcoder3.github.io/quantum-wordle): Quantum Wordle
 - [(Repo)](https://github.com/NeuralCoder3/script_proofs) [script_proofs](https://neuralcoder3.github.io/script_proofs/): a coq (and lean) variant of the calculus from the maths prep course 
+- [(Repo)](https://github.com/NeuralCoder3/shack-synth-web) [shack-synth-web](https://neuralcoder3.github.io/shack-synth-web): Synthesis of loop-free programs
 - [(Repo)](https://github.com/NeuralCoder3/SOOCaml-frontend) [SOOCaml-frontend](https://neuralcoder3.github.io/SOOCaml-frontend/): The User Interface for SOOCaml  (old https://sosml.org)
 - [(Repo)](https://github.com/NeuralCoder3/wiki-link) [wiki-link](https://neuralcoder3.github.io/wiki-link/): Processes and visualizes links between fandom.com wiki pages specifically the backrooms wiki
 <!-- gh-pages end -->
